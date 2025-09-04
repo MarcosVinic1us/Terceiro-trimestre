@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            padding: 20px;
+            background-color: chocolate;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Atividade antes e depois</h1>
+    <button onclick="clicar"> Qualquer número</button>
+    <script>
+        function clicar() {
+            let numero = window.prompt('Digite qualquer número');
+            let sucessor = numero + 1; 
+            let antecessor = numero - 1;
+            window.alert(`Olá, o sucessor do número é ${sucessor} e o antecessor é ${antecessor}.`);
+        }
+
+        
+
+    </script>
+</body>
+
+</html>

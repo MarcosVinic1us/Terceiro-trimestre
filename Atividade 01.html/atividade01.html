@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 20px;
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1> Esta é a atividade de boas-vindas</h1>
+    <button onclick="clicar()"> Digite aqui seu nome</button>
+    <script>
+        function clicar(){
+
+            let nome = window.prompt('Qual o seu nome?');
+            let idade = window.prompt('Qual a sua idade');
+            window.alert(`Olá, ${nome}, você tem ${idade} anos!`)
+        }
+    
+
+        
+    </script>
+</body>
+</html>
